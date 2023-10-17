@@ -11,8 +11,9 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 25px;
-    width: 50%;
-    height: auto;
+    width: 40%;
+    height: 500px;
+    position: relative;
 }
 
 button {
@@ -25,4 +26,10 @@ button:hover {
     background-color: white !important;
     border-color: white !important;
     color: #FFAD23 !important;
+}
+
+#joke-btn {
+    position: absolute !important;
+    bottom: 60px !important;
+    transform: translate(-50%, -50%) !important;
 }
