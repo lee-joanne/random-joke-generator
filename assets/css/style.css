@@ -30,20 +30,34 @@ button:hover {
 
 #joke-btn {
     position: absolute !important;
-    bottom: 9px !important;
+    bottom: 40px !important;
     transform: translate(-50%, -50%) !important;
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1000px) {
 
     .joke-container {
-        width: 75%;
+        width: 60%;
         height: 600px;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     #joke-btn {
         bottom: 60px !important;
+    }
+
+}
+
+@media screen and (max-width: 775px) {
+
+    .joke-container {
+        width: 75%;
+        height: 600px;
+        font-size: 14px;
+    }
+
+    #joke-btn {
+        bottom: 40px !important;
     }
 
 }

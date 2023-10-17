@@ -3,7 +3,7 @@ let btn = document.getElementById("joke-btn");
 
 btn.addEventListener("click", async () => {
     try {
-        const response = await fetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single");
+        const response = await fetch("https://v2.jokeapi.dev/joke/Miscellaneous,Dark,Pun,Spooky,Christmas?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single");
         const responseText = await response.text();
         const jokeData = JSON.parse(responseText);
         const joke = jokeData.joke
