@@ -34,6 +34,15 @@ button:hover {
     transform: translate(-50%, -50%) !important;
 }
 
+#fourohfour-link {
+    text-decoration: none;
+    color: white;
+}
+
+#fourohfour-link:hover {
+    color: black;
+}
+
 @media screen and (max-width: 1000px) {
 
     .joke-container {
